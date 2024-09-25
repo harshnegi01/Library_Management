@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.premiumtimesng.com/wp-content/files/2023/09/Library.jpg');
+    background-size: cover;
+    color: white;   
+    background-repeat: no-repeat; 
+    background-position: center;   
+    background-attachment: fixed; 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
